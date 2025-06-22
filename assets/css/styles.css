@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+
+.mobile_container {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+#particles-js {
+    max-width: 400px; 
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1000;
+  }
+
+/* Style untuk tombol musik */
+.music-controls {
+    position: fixed;
+    padding-top: 100px;
+    z-index: 1000;
+    
+}
+.text-cover{
+    font-size: 12px;
+}
+.music-controls i {
+    align-items: center;
+    justify-content: center;
+}
+
+.music-controls button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.play-btn, .pause-btn{
+    width: 40px;
+}
+
+
+
+.linniel_1 {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    background-image: url('../bg/bg1.jpeg'); /* Default background image */
+    opacity: 1;
+    transition: opacity 1s ease-in-out, background-image 1s ease-in-out;
+}
+
+.svg1{
+    position: absolute;
+    bottom: 0; /* Place the SVG at the bottom of the container */
+    left: 0;
+    right: 0;
+    width: 200%; /* Make the SVG span the full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    z-index: 1;
+}
+.nama_img{
+    width: 220px;
+    filter: drop-shadow( 0px 2px 6px rgb(0, 0, 0));
+}
+.bunga4{
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    left: 20%;
+    filter: drop-shadow(0 2px 4px black);
+}
+.kutipan{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    width: 90%;
+    text-shadow: 2px 4px 4px rgb(0, 0, 0);
+    position: absolute;
+    top: 5%;
+    z-index: 11;
+}
+.linniel_2{
+    background-color: #000000;
+    height: auto;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.undangan{
+    font-size: 14px;
+    width: 90%;
+    margin-inline: auto;
+}
+.pria, .wanita{
+    width: 180px;
+    border-radius: 20px;
+    padding: 2px;
+    border: solid 2px white;
+    z-index: 20;
+}
+.nama{
+    font-size: 34px;
+    font-family: "Great Vibes", serif;
+}
+.hr_custom{
+    border: solid 2px white;
+    width: 80%;
+    margin-inline: auto;
+}
+.bunga1{
+    width:160px;
+    position: absolute;
+    z-index: 30;
+    left: 20%;
+    margin-top: -30px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.bunga2{
+    width:160px;
+    position: absolute;
+    z-index: 30;
+    right: 20%;
+    margin-top: -30px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.pria_ket, .wanita_ket{
+    font-size: 13px;
+}
+.svg2 {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.svg2 svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.svg2-2 {
+    width: 100%;
+    overflow: hidden; 
+    position: absolute;
+    bottom: 0;
+}
+.countdown{
+    z-index: 2;
+  }
+.svg3{
+    position: absolute;
+    bottom: 0; /* Letakkan di bagian bawah container */
+    left: 0;
+    width: 100%; /* Pastikan lebar SVG memenuhi container */
+}
+
+.linniel_3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bg/bg2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+p{
+    z-index: 50;
+}
+.wrapper{
+    background-color: #ffffff1f;
+    font-size: 12px;
+    padding: 10px;
+    width: 75%;
+    height: 80vh;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-shadow: 0 2px 10px black;
+    position: relative;
+}
+.bunga4_2{
+    width: 260px;
+    position: absolute;
+    bottom: 3%;
+    left: 30%;
+    z-index: 10;
+    filter: drop-shadow(0 2px 4px black);
+    pointer-events: none;
+}
+.jadwal_1{
+    width: 220px;
+    padding-top: 20%;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
+    opacity: 100;
+    z-index: 100;
+}
+.tombol{
+    position: relative;
+    z-index: 200;
+    font-size: 12px;
+}
+.btn{
+    box-shadow: 2px 2px 4px black;
+}
+.linniel_4{
+    background-color: #000000;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.thanks{
+    width: 85%;
+    font-size: 12px;
+}
+.inviting{
+    width: 90%;
+    font-size: 12px;
+}
+.titl_2{
+    font-size: 14px;
+}
+.linniel_5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bg/bg2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.gallery-item img{
+    height: 260px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px black;
+}
+.gallery-item-2 img{
+    height: 125px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px black;
+}
+.linniel_6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bg/bg3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.svg4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nama_img_2{
+    width: 180px;
+    filter: drop-shadow(2px 4px 4px black);
+}
+.thanks_img{
+    width: 320px;
+    margin-top: 50px;
+    filter: drop-shadow(0 10px 30px rgb(255, 255, 255));
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+  }
+.btn{
+    font-size: 12px;
+}
+.btext, .rtext{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 360px) {
+   .bunga1{
+    width: 140px;
+    left: 15%;
+   }
+   .bunga2{
+    width: 140px;
+    right: 15%;
+   }
+   .bunga4{
+    width: 240px;
+    }
+    .bunga4_2{
+        width: 200px;
+        bottom: -5%;
+    }
+    .btext, .rtext{
+        font-size: 14px;
+    }
+    .hitungan-mundur{
+        z-index: 1000;
+        position: relative;
+    }
+   .pria, .wanita{
+    width: 150px;
+    }
+    .pria_ket, .wanita_ket{
+        font-size: 13px;
+    }
+    .gallery-item img{
+        height: auto;
+        width: 120px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 4px black;
+    }
+    .gallery-item-2 img{
+        height: auto;
+        width: 140px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 4px black;
+    }
+    .nama_img{
+        width: 160px;
+    }
+    .kutipan{
+        font-size: 12px;
+        width: 98%;
+    }
+    .jadwal_1{
+        width: 160px;
+    }
+    .linniel_3{
+        height: 120vh;
+    }
+    .wrapper{
+        line-height: 0.5;
+        width: 75%;
+        height: 90vh;
+    }
+    .nama_img_2{
+        width: 140px;
+    }
+    .thanks_img{
+        width: 220px;
+    }
+    
+  }
+  
