@@ -58,8 +58,6 @@ body {
     width: 40px;
 }
 
-
-
 .linniel_1 {
     background-color: white;
     height: 100vh;
@@ -128,6 +126,10 @@ body {
     font-size: 34px;
     font-family: "Great Vibes", serif;
 }
+.kutip{
+    font-family: "Great Vibes", serif;
+    font-size: 22px;
+}
 .hr_custom{
     border: solid 2px white;
     width: 80%;
@@ -167,6 +169,7 @@ body {
     width: 100%;
     overflow: hidden; 
     position: absolute;
+    z-index: 1;
     bottom: 0;
 }
 .countdown{
@@ -193,7 +196,7 @@ p{
     z-index: 50;
 }
 .wrapper{
-    background-color: #ffffff1f;
+    background-color: #ffffff0c;
     font-size: 12px;
     padding: 10px;
     width: 75%;
@@ -204,6 +207,7 @@ p{
     border-bottom-right-radius: 150px;
     box-shadow: 0 2px 10px black;
     position: relative;
+    z-index: 2;
 }
 .bunga4_2{
     width: 260px;
@@ -285,7 +289,7 @@ p{
 }
 .nama_img_2{
     width: 260px;
-    filter: drop-shadow(2px 4px 4px black);
+    filter: drop-shadow(2px 4px 4px rgb(253, 253, 253));
 }
 .thanks_img{
     width: 320px;
@@ -336,6 +340,9 @@ p{
     .pria_ket, .wanita_ket{
         font-size: 13px;
     }
+    .svg2-2 {
+        margin: -15px;
+    }
     .gallery-item img{
         height: auto;
         width: 120px;
@@ -359,15 +366,16 @@ p{
         width: 160px;
     }
     .linniel_3{
-        height: 120vh;
+        height: auto;
     }
     .wrapper{
         line-height: 0.5;
         width: 75%;
-        height: 90vh;
+        height: auto;
     }
     .nama_img_2{
-        width: 140px;
+        width: 180px;
+        height: 140px;
     }
     .thanks_img{
         width: 220px;
